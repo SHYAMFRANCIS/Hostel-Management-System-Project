@@ -1,0 +1,34 @@
+$ cd /workspace/dashboard
+$ ls -la
+
+total 966
+drwxr-xr-x 33 root root 266240 Aug  8 05:35 .
+drwxr-xr-x 87 root root 495616 Aug  8 05:35 ..
+-rw-r--r--  1 root root    253 Jun 16 08:19 .gitignore
+-rw-r--r--  1 root root    504 Jun 16 08:19 README.md
+-rw-r--r--  1 root root   1476 Jun 16 08:19 eslint.config.js
+-rw-r--r--  1 root root    291 Jun 16 08:19 index.html
+drwxr-xr-x  2 root root      6 Aug  8 05:35 node_modules
+-rw-r--r--  1 root root   1073 Jul 15 23:45 package.json
+-rw-r--r--  1 root root 137822 Jul 22 07:33 pnpm-lock.yaml
+-rw-r--r--  1 root root     80 Jun 16 08:19 postcss.config.js
+drwxr-xr-x 21 root root  81920 Jun 16 08:19 src
+-rw-r--r--  1 root root    170 Jun 16 08:19 tailwind.config.js
+-rw-r--r--  1 root root    613 Jun 16 08:19 template_config.json
+-rw-r--r--  1 root root    282 Jul 15 23:45 vite.config.js
+$ find src -type f -name "*.jsx" | sort
+
+src/App.jsx
+src/components/Dashboard.jsx
+src/components/Header.jsx
+src/components/Sidebar.jsx
+src/components/StatsCard.jsx
+src/components/charts/AreaChart.jsx
+src/components/charts/BarChart.jsx
+src/components/charts/BubbleChart.jsx
+src/components/charts/GaugeChart.jsx
+src/components/charts/LineChart.jsx
+src/components/charts/PieChart.jsx
+src/components/charts/RadarChart.jsx
+src/components/charts/TreeMap.jsx
+src/main.jsx
